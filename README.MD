@@ -1,6 +1,11 @@
-## Basic GoLang API with token auth
+## Token Auth API
 
-This serves as an example of user based CRUD functionality, email and password login & token based authentication through middleware.
+[![GitHub license](https://badgen.net/github/license/Naereen/Strapdown.js)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
+[![Go](https://img.shields.io/badge/--00ADD8?logo=go&logoColor=ffffff)](https://golang.org/)
+[![Twitter](https://badgen.net/badge/icon/twitter?icon=twitter&label)](https://twitter.com/jvckcallow)
+
+
+This serves as a basic example of user based CRUD functionality, email and password login & token based authentication through middleware.
 
 The idea is that these API endpoints are consumed by an SPA or similar front-end interface.
 
