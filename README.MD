@@ -26,6 +26,16 @@ Read the [PostMan Collection Docs](https://documenter.getpostman.com/view/542051
 
 ____
 
+The `pw-reset.html` file is the email template used for password reset notifications.
+
+The following data variables can be used in the template by default:
+- `{{.ActionUrl}}`
+- `{{.Name}}`
+
+[This code block](https://github.com/sjmc11/go-auth-api/blob/main/methods/authMethods.go#L136) dictates the data available in the email template.
+
+____
+
 This GoLang application *mainly* uses the following packages:
 
 - Router - [Chi](https://github.com/go-chi/chi)
